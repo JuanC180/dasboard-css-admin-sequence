@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- 
+    https://dribbble.com/shots/24718258-Project-management-dashboard-Business-Analytics-App
+    https://dribbble.com/shots/23683691-Sequence-Financial-Dashboard
+
+    
+
+    -->
+
+<!-- Mostrar Nevera
+https://www.whirlpool.com.co/combo-nevera-top-mount-284-litros-lavadora-carga-superior-15kg-wrw27cktww-wwg15bshla/p 
+-->
+
+    <!-- sidebar -->
+    <section id="sidebar">
+      <div class="sidebar__wrapp">
+        <div>
+          <a id="brand">
+            <h3 class="brand__title">Sequence</h3>
+            <i class="fa-solid fa-arrow-left"></i>
+          </a>
+
+          <ul class="side-menu">
+            <p class="side-menu__title">General</p>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-compass"></i>
+                <span class="side-menu__texto"> Dashboard </span>
+                <i class="fa-solid fa-angle-right arrow"></i>
+              </a>
+              <ul class="side-menu__dropdown">
+                <li class="side-menu__items"><a class="side-menu__link" href="#">Alert</a></li>
+                <li class="side-menu__items"><a class="side-menu__link" href="#">Badges</a></li>
+                <li class="side-menu__items"><a class="side-menu__link" href="#">Alert</a></li>
+              </ul>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <span class="side-menu__texto"> Payment </span>
+              </a>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-list"></i>
+                <span class="side-menu__texto"> Transaction </span>
+              </a>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-credit-card"></i>
+                <span class="side-menu__texto"> Cards </span>
+              </a>
+            </li>
+
+            <p class="side-menu__title mt">Support</p>
+
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span class="side-menu__texto"> Capital </span>
+              </a>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-chart-line"></i>
+                <span class="side-menu__texto"> Vaults </span>
+              </a>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-regular fa-file-lines"></i>
+                <span class="side-menu__texto"> Reports </span>
+              </a>
+            </li>
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-gift"></i>
+                <span class="side-menu__texto"> Eam </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sidebar__down">
+          <ul class="side-menu" id="sidebar__down-line">
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-gear"></i>
+                <span class="side-menu__texto"> Setting </span>
+              </a>
+            </li>
+
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-regular fa-circle-question"></i>
+                <span class="side-menu__texto"> Help </span>
+              </a>
+            </li>
+
+            <li class="side-menu__items">
+              <a href="#" class="side-menu__link">
+                <i class="fa-solid fa-code-fork"></i>
+                <span class="side-menu__texto"> Pro mode </span>
+                <input type="radio" />
+              </a>
+            </li>
+          </ul>
+
+          <div class="info-avatar">
+            <img
+              class="avatar-aside-left"
+              src="img/teacher.png"
+              alt="avatar"
+            />
+            <div class="info-avatar__info">
+              <p class="info-avatar__name">Young Alaska</p>
+              <p class="info-avatar__email">alskayng@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sidebar -->
+
+    <!-- content -->
+
+    <section id="wrapper_main">
+    <!-- navbar -->
+      <nav class="nav">
+        <i class="fa-solid fa-bars icon"></i>
+        <a href="#" class="nav__link">
+          <i class="fa-solid fa-bell icon"></i>
+          <span class="badge">5</span>
+        </a>
+        <a href="#" class="nav__link">
+          <i class="fa-solid fa-comment-dots icon"></i>
+          <span class="badge">8</span>
+        </a>
+        <span class="divider"></span>
+        <div class="nav__profile">
+          <img class="" src="img/teacher.png">
+          <ul class="nav__profile-link">
+            <li><a href="#"> <i class="fa-solid fa-circle-user"></i> </a></li>
+            <li><a href="#"> <i class="fa-solid fa-gear"></i> </a></li>
+            <li><a href="#"> <i class="fa-solid fa-arrow-right-from-bracket"></i> </a></li>
+          </ul>
+        </div>
+        
+      </nav>
+
+      <!-- navbar -->
+       <main class="main">
+        <h1 class="main__tittle">Dashboard</h1>
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li class="divider">/</li>
+          <li><a href="#" class="active">Dashboard</a></li>
+        </ul>
+
+          <div class="info-data">
+            
+            <div class="info-data__card">
+              <div class="info-data__head">
+                <div class="info-data__number">
+                  <h2 class="info-data__value">1500</h2>
+                  <p class="info-data__description">Traffic</p>
+                </div>
+                <i class="fa-solid fa-arrow-trend-up" style="color: #00d47e;"></i>
+              </div>
+              <span class="info-data__progress" data-value="40%" style="--value: 40%"></span>
+              <span class="info-data__percent">40%</span>
+            </div>
+
+            <div class="info-data__card">
+              <div class="info-data__head">
+                <div class="info-data__number">
+                  <h2 class="info-data__value">6582</h2>
+                  <p class="info-data__description">Sales</p>
+                </div>
+                <i class="fa-solid fa-arrow-trend-down" style="color: #e92b2b;"></i>
+              </div>
+              <span class="info-data__progress" data-value="40%" style="--value: 60%"></span>
+              <span class="info-data__percent">40%</span>
+            </div>
+
+            <div class="info-data__card">
+              <div class="info-data__head">
+                <div class="info-data__number">
+                  <h2 class="info-data__value">852</h2>
+                  <p class="info-data__description">Pageviews</p>
+                </div>
+                <i class="fa-solid fa-arrow-trend-up" style="color: #00d47e;"></i>
+              </div>
+              <span class="info-data__progress" data-value="40%" style="--value: 30%"></span>
+              <span class="info-data__percent">40%</span>
+            </div>
+
+            <div class="info-data__card">
+              <div class="info-data__head">
+                <div class="info-data__number">
+                  <h2 class="info-data__value">350</h2>
+                  <p class="info-data__description">Visitors</p>
+                </div>
+                <i class="fa-solid fa-arrow-trend-up" style="color: #00d47e;"></i>
+              </div>
+              <span class="info-data__progress" data-value="40%" style="--value: 80%"></span>
+              <span class="info-data__percent">40%</span>
+            </div>
+          </div>
+
+
+
+          <div class="data">
+            <div class="content-data">
+              <div class="head">
+                <h3>Sales Report</h3>
+                <div class="menu">
+                  <i class='bx fa-solid fa-ellipsis icon'></i>
+                  <ul class="menu-link">
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="chart">
+                <div id="chart"></div>
+              </div>
+            </div>
+            <div class="content-data">
+              <div class="head">
+                <h3>Chatbox</h3>
+                <div class="menu">
+                  <i class='bx fa-solid fa-ellipsis icon'></i>
+                  <ul class="menu-link">
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Save</a></li>
+                    <li><a href="#">Remove</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="chat-box">
+                <p class="day"><span>Today</span></p>
+                <div class="msg">
+                  <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+                  <div class="chat">
+                    <div class="profile">
+                      <span class="username">Alan</span>
+                      <span class="time">18:30</span>
+                    </div>
+                    <p>Hello</p>
+                  </div>
+                </div>
+                <div class="msg me">
+                  <div class="chat">
+                    <div class="profile">
+                      <span class="time">18:30</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatum eos quam dolores eligendi exercitationem animi nobis reprehenderit laborum! Nulla.</p>
+                  </div>
+                </div>
+                <div class="msg me">
+                  <div class="chat">
+                    <div class="profile">
+                      <span class="time">18:30</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, architecto!</p>
+                  </div>
+                </div>
+                <div class="msg me">
+                  <div class="chat">
+                    <div class="profile">
+                      <span class="time">18:30</span>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <form action="#">
+                <div class="form-group">
+                  <input type="text" placeholder="Type...">
+                  <button type="submit" class="btn-send"><i class='bx bxs-send fa-solid fa-paper-plane' ></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          
+          <!-- <i class="fa-solid fa-ellipsis"></i> -->
+
+          <!-- <i class="fa-solid fa-magnifying-glass-plus"></i> -->
+          <!-- <i class="fa-solid fa-house"></i> -->
+          <!-- <i class="fa-solid fa-hand"></i> -->
+          <!-- <i class="fa-solid fa-circle-plus"></i> -->
+          <!-- <i class="fa-regular fa-circle-plus"></i> -->
+          <!-- <i class="fa-solid fa-circle-minus"></i> -->
+          <!-- <i class="fa-regular fa-circle-minus"></i> -->
+
+
+       </main>
+
+      </section>
+
+    <!-- content -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/script.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
